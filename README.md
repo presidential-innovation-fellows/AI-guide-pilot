@@ -1,4 +1,4 @@
-# Technology Budgeting Handbook
+# Artificial Intelligence Playbook
 
 A 10x project to pilot a process to educate stakeholders about buying artificial intelligence.
 
