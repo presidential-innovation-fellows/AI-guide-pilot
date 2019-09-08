@@ -365,7 +365,7 @@ AI may not be a possible solution if the infrastructure you are deploying it to 
 - What are you seeking to optimize in your long-term strategy- cost, building in-house technical capacity, agility to quickly implement new projects, performance on single large projects?
 - Do you have a sustainable business model?
 
-## Lay the seeds for future experimentation
+### Lay the seeds for future experimentation
 
 In order to steward artificial intelligence in the government, we need professional data scientists, but we also need a trained non-data science workforce that is capable of identifying opportunities within their own workflow for automation, that can think ahead to the future, evaluate vendors, and manage teams that may include data scientists and software engineers. 
 
