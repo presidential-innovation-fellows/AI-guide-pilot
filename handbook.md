@@ -51,7 +51,7 @@ While we believe anyone can get value from this resource, we wrote this playbook
 
 ### About the authors
 
-We are Presidential Innovation Fellows (https://pif.gov/), part of the Technology Transformation Services team at the [General Services Administration](https://www.gsa.gov/) (GSA). Collectively, the three of us have many years of experience in organizational design, software development, and artificial intelligence.
+We are [Presidential Innovation Fellows] (https://pif.gov/), part of the Technology Transformation Services team at the [General Services Administration](https://www.gsa.gov/) (GSA). Collectively, the three of us have many years of experience in organizational design, software development, and artificial intelligence.
 
 In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year exploring the state of artificial intelligence in the federal government, what barriers to adoption existed, and the relationship between artificial intelligence and the federal workforce. During our research, we spoke with numerous statisticians, computer scientists, and data scientists trying to deliver better services, drive down the human cost of onerous tasks, and save lives. We also spoke with many leaders at the federal level including Chief Information, Technology, and Data Officers. We are extremely grateful to their help in creating this playbook.
 
