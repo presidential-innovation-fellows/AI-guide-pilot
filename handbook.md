@@ -13,8 +13,8 @@ Presidential Innovation Fellows, Technology Transformation Service, General Serv
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-the-approach)
-	- [Identify the problem](#identifying-the-problem)
+- [Identifying your problem and testing ideas](#identifying-your-problem-and-testing-ideas)
+	- [Identify the problem](#identify-the-problem)
 	- [Bring experienced teams in-house](#bring-experienced-teams-in-house)
 	- [Know your data](#know-your-data)
 	- [Continuously test and evaluate prototypes](#continuously-test-and-evaluate-prototypes)
@@ -55,7 +55,7 @@ We are [Presidential Innovation Fellows](https://pif.gov/), part of the Technolo
 
 In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year exploring the state of artificial intelligence in the federal government, what barriers to adoption existed, and the relationship between artificial intelligence and the federal workforce. During our research, we spoke with numerous statisticians, computer scientists, and data scientists trying to deliver better services, drive down the human cost of onerous tasks, and save lives. We also spoke with many leaders at the federal level including Chief Information, Technology, and Data Officers. We are extremely grateful to their help in creating this playbook.
 
-## Identifying your problem and evaluating the approach
+## Identifying your problem and testing ideas
 
 AI is not an all-purpose solution. AI is another tool to help agencies meet their missions. For designing any service, always begin with user needs. 
 
@@ -210,7 +210,7 @@ The majority of these risks have a strong communications and culture change elem
 - What is the minimum level of success this pilot needs?
 - Who are the most important people to be communicating with?
 
-## Assess and manage ethical concerns
+### Assess and manage ethical concerns
 
 The automation of government processes should not create a negative experience for citizens. This might include:
 
