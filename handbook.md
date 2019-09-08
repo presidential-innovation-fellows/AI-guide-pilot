@@ -12,7 +12,7 @@ Presidential Innovation Fellows, Technology Transformation Service, General Serv
 
 ## Table of contents
 
--[Introduction](#introduction)
+- [Introduction](#introduction)
 - [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-the-approach)
 	- [Identify the problem](#identifying-the-problem)
 	- [Bring experienced teams in-house](#bring-experienced-teams-in-house)
