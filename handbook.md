@@ -1,6 +1,6 @@
 # The Artificial Intelligence Playbook
 
-## A guide for assessment and buying
+## A guide for the assessment and buying of machine learning software
 
 September 8, 2019
 
