@@ -1,6 +1,6 @@
 # Artificial Intelligence Playbook
 
-A 10x project to pilot a process to educate stakeholders about buying artificial intelligence.
+A 10x project to pilot a process to educate stakeholders about assessing and buying artificial intelligence tools.
 
 This repository is for document storage and issue-tracking.
 
