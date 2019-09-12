@@ -6,7 +6,7 @@ September 8, 2019
 
 By [Justin Koufopoulos](mailto:justin.koufopoulos@gsa.gov), [Jeffrey Starr](mailto:jeffrey.starr@pif.gov), and [Gil Alterovitz](mailto:gil.alterovitz@va.gov)
 
-The [Presidential Innovation Fellows Program](pif.gov)
+The [Presidential Innovation Fellows Program](https://pif.gov)
 
 
 ## Table of contents
