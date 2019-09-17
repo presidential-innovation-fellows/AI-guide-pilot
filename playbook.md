@@ -293,7 +293,7 @@ Also, it’s important to consider how you’ve set up your system to collect fe
 
 ### Create standards for measuring the performance of models
 
-Training and testing datasets designed for AI with testing datasets tests enable models to be tested and trained. The evaluation process should be started as early as possible in the planning process. It can involve obtaining models from external organizations and testing them for accuracy on previously unseen data. Agencies may also build/leverage tools to serve as honest broker for testing. Alternatively, a trusted third party may take this role.  
+Training and testing datasets designed for AI with testing datasets enable models to be tested and trained. The evaluation process should be started as early as possible in the planning process. It can involve obtaining models from external organizations and testing them for accuracy on previously unseen data. Agencies may also build/leverage tools to serve as honest broker for testing. Alternatively, a trusted third party may take this role.  
 
 Either way, the key is to have some data be kept for testing that is not used in the training process. Working with industry is useful to understand broader sets of use cases- and challenges/sprints can enable comparisons of different models for fit for purpose. Sometimes, data is located on different servers and cannot be combined into a central database due to privacy or other concerns. In such cases, federated approaches may be useful, whereby computing is done on local servers and then resulting analysis is shared with others.  This can  enable AI results to be combined from data across sites in ways that protect access of the individual servers’ data by outside users (e.g. for privacy).
 
