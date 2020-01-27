@@ -8,13 +8,15 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Identifying your problem and testing ideas](#identifying-your-problem-and-testing-ideas)
+	- [Who should use this guide, and how and why they should use it](#who-should-use-this-guide)
+- [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-approach)
 	- [Identify the problem](#identify-the-problem)
-	- [Bring experienced teams in-house](#bring-experienced-teams-in-house)
+	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-fit-for-ai)
+	- [Bring diverse, experienced teams in-house](#bring-experienced-teams-in-house)
 	- [Know your data](#know-your-data)
 	- [Continuously test and evaluate prototypes](#continuously-test-and-evaluate-prototypes)
 - [Culture and Education](#culture-and-education)
-	- [Manage key risks, including resistance](#manage-key-risks-including-resistance)
+	- [Identify key risks, including resistance](#identify-key-risks-including-resistance)
 	- [Assess and manage ethical concerns](#assess-and-manage-ethical-concerns)
 	- [Build support and educate senior stakeholders](#build-support-and-educate-senior-stakeholders)
 - [Run your pilot](#run-your-pilot)
@@ -24,31 +26,26 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 - [Post pilot: Now what?](#post-pilot-now-what)
 	- [Consider the long-term investment strategy](#consider-the-long-term-investment-strategy)
 	- [Lay the seeds for future experimentation](#lay-the-seeds-for-future-experimentation)
-- [Appendix](#appendix)
 - [Case Study](#case-study)
-
+- [Appendix I: Definition of Terms](#appendix-I)
+- [Appendix II: Additional Resources](#appendix-II)
 
 ## Introduction
 
-[Artificial Intelligence](https://science.sciencemag.org/content/357/6346/19) (AI) has the potential to help government agencies. There are many different types of AI. Our playbook is mostly referring to machine learning, where algorithms find patterns in data without explicit instruction. AI can help agencies automate manual, labor intensive tasks. Searching databases, understanding language, labeling text and images, and identifying patterns that can be difficult for humans to do without considerable time and training are very common problems that AI may be able to help with.
 
-This playbook is for government leaders considering AI as a solution to a technical problem they are facing. Our plays were derived from studying lessons learned from Federal agency AI IT projects. 
+[Artificial Intelligence](https://science.sciencemag.org/content/357/6346/19) (AI) has the potential to help many federal government agencies deliver on the services that the American public counts on. This guide provides a set of recommendations and best practices for how federal agencies can begin piloting AI solutions to assist with service delivery.
 
-Readers will learn how to manage many of the key risks inherent to an AI project including:
+While there are several different categories of AI, this guide is mostly relates to machine learning (ML), where algorithms find patterns in data without explicit instruction. AI and ML can help agencies automate manual, labor intensive tasks, as well as assist in informing decision-making. Searching databases, understanding language, labeling text and images, and identifying patterns in large amounts of data are very common problems that AI can help with.
 
-- Identifying whether the problem really is a fit for AI
-- Hiring and team-building
-- How to run an AI pilot
-- Steps to consider post-pilot
+Pilots evaluate whether an AI project is ready for broader use. Here is a rough diagram of what an AI project build from design to scale might look like.
 
-While we believe anyone can get value from this resource, we wrote this playbook specifically for senior government technology leadership and project managers beginning to consider AI as a potential solution. Our playbook is focused on piloting versus scaling to many users. Therefore we are less focused on addressing important issues like legacy technology and security.
+Pilot projects can have a broad definition and set of criteria across the U.S. federal government. With respect to this guide, an AI pilot should meet the following criteria:
 
+- AI models are running, learning from data, and helping to make decisions
+- There is a framework in place to evaluate the effectiveness of the AI models
+- A selection of the public can interact with the service and provide feedback
+- Evidence is gathered as to whether the service meets user needs
 
-### About the authors
-
-We are [Presidential Innovation Fellows](https://pif.gov/), part of the Technology Transformation Services team at the [General Services Administration](https://www.gsa.gov/) (GSA). Collectively, the three of us have many years of experience in organizational design, software development, and artificial intelligence.
-
-In work funded by GSA’s [10x](https://10x.gsa.gov/), we spent a year exploring the state of artificial intelligence in the federal government, what barriers to adoption existed, and the relationship between artificial intelligence and the federal workforce. During our research, we spoke with numerous statisticians, computer scientists, and data scientists trying to deliver better services, drive down the human cost of onerous tasks, and save lives. We also spoke with many leaders at the federal level including Chief Information, Technology, and Data Officers. We are extremely grateful to their help in creating this playbook.
 
 ## Identifying your problem and testing ideas
 
