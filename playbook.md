@@ -8,8 +8,8 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 ## Table of contents
 
 - [Introduction](#introduction)
-	- [Who should use this guide, and how and why they should use it](#Who-should-use-this-guide-and-how-and-why-they-should-use-it)
-- [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-approach)
+	- [Who should use this guide, and how and why they should use it](#who-should-use-this-guide-and-how-and-why-they-should-use-it)
+- [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-the-approach)
 	- [Identify the problem](#identify-the-problem)
 	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-fit-for-ai)
 	- [Bring diverse, experienced teams in-house](#bring-experienced-teams-in-house)
@@ -46,7 +46,7 @@ Pilot projects can have a broad definition and set of criteria across the U.S. f
 - A selection of the public can interact with the service and provide feedback
 - Evidence is gathered as to whether the service meets user needs
 
-### Who should use this guide, how, and why
+### Who should use this guide, and how and why they should use it
 
 This guide is for:
 
@@ -77,7 +77,7 @@ This guide is not:
 This guide is meant to be a living document. Every month, new research and guidance on AI for governments is released. As the technological sophistication of AI solutions advances, this set of plays, checklists, and questions should be updated to remain relevant and useful to federal community. 
 
 
-# IDENTIFYING YOUR PROBLEM AND EVALUATING THE APPROACH
+# Identifying your problem and evaluating the approach
 
 AI is not an all-purpose solution; it is another tool to help agencies meet their missions. For designing any service, always begin with user needs.
 
@@ -96,18 +96,53 @@ A template for a clear problem statement might look like the following:
 
 ##### Checklist
 
-- [ ] Identify user needs, especially how the solution fits within the users journey or workflow, like how they will make decisions based on this information, etc
-- [ ] Work with senior leadership to understand how the problem statement fits with their priorities or mission
-- [ ] Identify key metrics and outcomes for solving the problem
+- [ ] Create a list of specific user needs that the solution will need to address 
+- [ ] Understand how the solution fits within the user’s journey or workflow
+- [ ] Read the [Digital Services playbook](http://https://playbook.cio.gov/) 
+- [ ] Work with senior leadership to understand how the problem statement fits within their priorities or mission
+- [ ] As you uncover new unmet needs, document these and share them with the team and agency leadership
+- [ ] Test prototypes of solutions with real people, in the field if possible
+- [ ] Identify key metrics and outcomes for solving the problem, rather than metrics for the technical solution
 - [ ] Understand previous attempts to solve this problem and those projects’ outcomes
+
+## Evaluate whether the problem is a fit for AI/ML
+
+AI, and ML are methodologies for solving a problem. Oftentimes, simpler solutions like Robotic Process Automation (RPA), rule-based software, or analytics can be more effective and less costly. However, there are problems in agencies where AI and machine learning is the most effective approach from a business and cost- savings standpoint.
+
+AI is not:
+- An all-purpose solution
+- Capable of making judgements the way humans can 
+
+AI can help when:
+- There are large amounts of high-quality data
+- The problem to be solved is repetitive
+- The problem is narrowly scoped (for example, differentiating a kind of object/sound/image from something else)
+- The problem is too expensive to be solved at scale with human resources
+- The problem can be ethically solved with a machine, and a mistake by that machine would not pose a serious risk
+to users
+- An engineer can effectively program a machine to learn the task
+- The solution involves labeling (or scoring) something
+
+When evaluating use cases for AI it can be helpful to think about outputs of a repetitive task, and then work backwards. Even if there is a better solution than AI, the use-case could still be handed to an engineer and developed into a solution.
+
+For example:
+
+|Benefits |Steering Wheel|Product Description|Bridge |Data Center Cooling System|Image|Transaction|
+|:---|:---|:---|:---|:---|:---|:---|
+|Eligible or Ineligible?| Left or Right?| Correct or Not?|Send maintenance crew or not?| Warmer or cooler?| Fake or real?| Fraudulent or real?|
+
+If your agency doesn’t have the talent to evaluate whether the problem is a fit for AI, the agency should consider contacting the [AI Center of Excellence](mailto:connectcoe@gsa.gov) at the Technology Transformation Service. When issuing a Request for Proposal (RFP), in most situations an agency should not describe the solution as AI unless there is strong reason to believe so. Even then, the agency should be open to alternative technical solutions. Instead, focus on delivering a clear problem statement.
+
+The UK Office of Artificial Intelligence and the World Economic Forum have released guidance on procuring AI solutions that can be helpful to review when planning your purchasing strategy.
 
 ##### Key Questions
 
-- Have you identified the user needs?
-- Can you hire an experienced team of designers or use experience researchers to identify the problem to be solved before investing?
-- Have you gathered relevant information on the problem and solution history?
-- How will the world be measurably different once this problem is solved?
-- Have you aligned with your project’s important stakeholders to validate your metrics, goals, and outcomes for the project?
+- How quickly can you begin speaking to users to learn more about the problem and unaddressed needs?
+- What goals or needs aren’t being met? What measurable criteria would indicate progress toward those goals?
+- Are you at a point where you are hearing the same challenge described over and over again?
+- Do you have a document describing the history of this problem and the various connected issues?
+- Can you articulate in plain language the problem to be solved?
+
 
 ### Bring experienced teams in-house
 
