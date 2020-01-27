@@ -46,6 +46,37 @@ Pilot projects can have a broad definition and set of criteria across the U.S. f
 - A selection of the public can interact with the service and provide feedback
 - Evidence is gathered as to whether the service meets user needs
 
+### Who should use this guide, how, and why
+
+This guide is for:
+
+- Government leaders considering machine learning as a solution in a pilot project
+- CIOs, CTOs, and CDOs providing technical leadership for an AI pilot project
+- Program staff and managers trying to learn more about AI
+- Agency staff managing a pilot software project where AI is a capability
+
+Readers of this guide will learn how to manage many of the key risks inherent to an AI pilot project including:
+
+- Identifying whether the problem really is a fit for AI
+- Hiring the right people
+- How to run an AI pilot
+- Cultural risks
+- What to consider post-pilot
+
+These plays were derived from studying lessons learned from interviews of dozens of Federal employees involved in developing and driving agency AI projects. Additionally, experts from the [Technology Transformation Services](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services), [United States Digital Services](http://usds.gov), [The CIO Council](http://cio.gov), [The Presidential Innovation Fellows](http://pif.gov), [Network Information Technology Research and Development Program AI Interagency Working Group](http://https://www.nitrd.gov/nitrdgroups/index.php?title=AI), and the [American Council for Technology and Information Advocacy Council](http://https://www.actiac.org/) (ACT-IAC) were key to its development. 
+
+These 13 best practices are ordered roughly in sequence. However, a project team should revisit many of them during the course of an AI project. Each play contains a short description, with key checklist items and questions to be answered at each step. 
+
+This guide is not:
+
+A set of linear steps
+The entire overview of an AI lifecycle
+A complete primer on laws and ethics, data governance, user-centered design, or software development
+A review of data science or machine learning
+
+This guide is meant to be a living document. Every month, new research and guidance on AI for governments is released. As the technological sophistication of AI solutions advances, this set of plays, checklists, and questions should be updated to remain relevant and useful to federal community. 
+
+
 
 ## Identifying your problem and testing ideas
 
