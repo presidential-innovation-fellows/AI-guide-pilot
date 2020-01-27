@@ -230,79 +230,74 @@ For a pilot, you may be able to use synthetic data (or artificially created data
 - Have you identified data experts within your agency and paired them with a data scientist to ensure that the data scientist can learn about the data quickly? 
 - Has the data scientist shared with you:
 	- the types of variables you have?
-o the kinds of data analysis methods and models
-that could be used?
-o metrics for the data?
-o information on how to best curate the data?
-o information about missing data, erroneous data,
-and duplicative data?
-o information about potential bias in the dataset?
-o options as to how to go about solving issues in the
-data?
-Can you reach out to experts within the federal community, like the Networking and Information Technology Research and Development Working Group on AI?
+	- the kinds of data analysis methods and models that could be used?
+	- metrics for the data?
+	- information on how to best curate the data?
+	- information about missing data, erroneous data, and duplicative data?
+	- information about potential bias in the dataset?
+	- options as to how to go about solving issues in the data?
+- Can you reach out to experts within the federal community, like the [Networking and Information Technology Research and Development Working Group on AI](https://www.nitrd.gov/nitrdgroups/index.php?title=AI?)
 
 ### Continuously test and evaluate prototypes
 
-Developing AI solutions is an iterative process. Data scientists will run through a machine learning process - which includes creating training data, test data, and trying different approaches and parameters to get the most accurate and usable output. In addition, diverse teams will need to test prototypes - and typically many iterations before you have working software that can be piloted with a group of users.
+Developing AI solutions is an iterative process. Data scientists will run through a machine learning process, which includes creating training data, evaluating algorithm performance using test data, and trying different approaches and parameters to get the most accurate and usable output. Additionally, diverse teams will need to test and evaluate prototypes - and typically many iterations before you have working software that can be piloted with a group of users.\
 
-Integrating these algorithms into a software application will probably involve more than a data scientist. You will likely need a diverse team including at least a designer, engineer, and possibly a product manager to work with the product owner on your team. They should be familiar with user-centered design and agile.
+Remember that a prototype may still be ready to be integrated into a service even if it doesn’t perform perfectly for all cases, so long as it performs really well for one case. For example, part of the job of the data scientist is to identify bias in the data or algorithm and communicate proactively with the agency project lead about how their work may favor one group over another.
 
-Look for the team to describe iterations based on user-provided feedback and findings. This iteration applies the data being used for training AI, the AI models applied, and the user experience.  During the iteration and prototyping process getting to real software that can be piloted, the team should be demoing their software on a regular cadence to leadership and the agency product owner.
+Look for the team to describe iterations based on user-provided feedback and findings. These iterations integrate the data being used for training AI, the AI models applied, and the user experience. During the iteration and prototyping process, the team should be demonstrating their software on a regular cadence to leadership and the agency product owner. This will assist in getting to real software that can be piloted.
 
 ##### Checklist
 
 - [ ] Use experts for identifying good training and testing data
 - [ ] Collaborate with training data owners and model developers in order to understand the scope and suitability for the specific application
-- [ ] Recruit at least one designer, and possibly a front-end and back-end engineer to develop prototypes and ultimately build software that can meet user needs for a pilot
-- [ ] Require the team to follow practices like the Digital Services Playbook, and the Defense Innovation Board’s Detecting Agile BS Guide
+- [ ] Require the team to follow practices like the [Digital Services Playbook](https://playbook.cio.gov/), and the [Defense Innovation Board’s Detecting Agile BS Guide](https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF)
 - [ ] Ensure that the team is well integrated with the problem and data experts so that there is regular, efficient communication without requiring additional oversight or layers of access
-- [ ] Ensure that the team can interview end-users without running into barriers like the Paperwork Reduction Act
+- [ ] Ensure that the team can interview end-users without running into barriers like the [Paperwork Reduction Act](https://pra.digital.gov/)
 
 ##### Questions
 
-- Does the team have experience working in the government?
-- Is the hired team really agile?
 - Does the team have access to the original training data owners and model developers?
-- What would the AI model be compared against (e.g. non-AI process) and  what are the proper accuracy metrics to use for such comparisons?
+- What would outputs of the AI model be compared against (e.g. non-AI process), and what are the proper accuracy metrics to use for such comparisons?
 - What is the accuracy of the algorithm and is it sufficient given the user’s needs?
 - How is user feedback factoring into the prototypes being developed by the team?
-- Is the team demo’ing working software on a regular cadence?
+- Is the team demoing working software on a regular cadence?
+- Does the machine learning model perform really well for at least one use-case?
 
 ## Culture and Education
- 
-AI involves different risks than just normal software. While there are all the risks of typical software development in government, there are a variety of different issues related to agency culture that can pose a risk to an AI project. Education is critical to managing stakeholder expectations and concerns. 
 
-### Manage key risks, including resistance
+AI involves different risks than just normal software. While many typical software development risks apply to AI projects, there are also a variety of different issues related to agency culture that can pose a risk. Education is key to addressing these risks.
 
-Every software project has a certain amount of inherent risk. We use agile as project management philosophy because we can’t predict the future. Here are some risks that are especially important to AI.
+### Identify key risks, including resistance
 
-- Legacy infrastructure where sharing data is not easy technically 
-- Data which involves special protections
-- Data which requires a substantial review period before any individual can access
-- Ambiguity and uncertainty around the quality of the data
-- Biased data
-- No clear data owner, or person responsible for the quality of the data set
-- The data owner being unaware of the project 
+Every software project has a certain amount of inherent risk. We use agile as project management philosophy because we can’t predict the future. Here are some risks that are especially important to AI:
+
+- Legacy infrastructure where sharing data is not technically easy
+- Data that involve special handling, such as rules for the protection of personally identifiable information (PII)
+- Data that require a substantial review period before any individual can access it
+- Ambiguity and uncertainty about the quality of the data
+- Biased data or algorithm processing
+- No clear data owner, or person responsible for the quality of the dataset
+- The data owner being unaware of the project
 - Fear, uncertainty, and doubt over how an AI will fit with an existing workflow
 - No communications plan with users about the impact of AI
 - No communications plan with senior leadership about the purpose of the AI
 
-The majority of these risks have a strong communications and culture change element so communications, especially with the users affected by AI tool, data owners, and leadership are all especially important. 
+The majority of these risks include culture change and work process change management elements. As such, good and timely communication is important, especially with the users affected by an AI tool, data owners, and leadership.
 
 ##### Checklist
 
-- [ ] Work with a product manager to identify the risks in your project
+- [ ] Work with a product manager to identify the risks associated with your project
 - [ ] Proactively communicate with your projects’ stakeholders regarding risk
 - [ ] Communicate regularly and proactively with users, senior leaders, data owners, and more
-- [ ] Work with data owners and data science to understand the quality of data
+- [ ] Work with data owners and data scientists to understand the quality of data
 
 ##### Key Questions
 
-- What will you need and from who?
-- What are the most likely reasons this effort would fail?
+- What will you need and from whom?
+- What are the most likely reasons this effort would fail? 
 - Have you identified everything you need to make this pilot a success?
-- What is the minimum level of success this pilot needs?
-- Who are the most important people to be communicating with?
+- What is the minimum level of success this pilot needs? 
+- Who are the most important people to communicate with?
 
 ### Assess and manage ethical concerns
 
