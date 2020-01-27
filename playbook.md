@@ -1,6 +1,6 @@
 # THE ARTIFICIAL INTELLIGENCE GUIDE ON GETTING TO PILOT
 
-Last Updated: January 27th, 2020
+_Last Updated: January 27th, 2020_
 
 
 This guide is a product of [10x](http://10x.gsa.gov) investments, made in collaboration with the [CIO Council](http://cio.gov), and the [Presential Innovation Fellows](http://pif.gov).
@@ -548,33 +548,33 @@ At first, the CFS team saw potentially concerning accuracy numbers: around 50%. 
 
 #### Identifying the problem and evaluating the approach
 
-Digital Services Playbook
-18F Method Cards
-AI Self Assessment Checklist
-What Great Data Analysts Do -- And Why Every Organization Needs Them
-De-risking Custom Technology Projects
-A Guide to Using Artificial Intelligence in the Public Sector
-DIB Guide: Detecting Agile BS
+- [Digital Services Playbook] (https://playbook.cio.gov/)
+- [18F Method Cards] (https://methods.18f.gov/)
+- [AI Self Assessment Checklist] 
+- [What Great Data Analysts Do -- And Why Every Organization Needs Them](https://hbr.org/2018/12/what-great-data-analysts-do-and-why-every-organization-needs-them)
+- [De-risking Custom Technology Projects](https://github.com/18F/technology-budgeting/blob/master/handbook.md#footnote-2)
+- [A Guide to Using Artificial Intelligence in the Public Sector](https://www.gov.uk/government/collections/a-guide-to-using-artificial-intelligence-in-the-public-sector)
+- [DIB Guide: Detecting Agile BS](https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF)
 
 #### Culture and Education
 
-Scientific American AI Glossary
-Understanding artificial intelligence ethics and safety
-OECD AI Principles
-Algorithmic Impact Assessments: A practical framework for public agency accountability
-Government of Canada Algorithmic Impact Assessment
-AI Principles: Recommendations on the Ethical Use of Artificial Intelligence by the Department of Defense
+- [Scientific American AI Glossary](https://science.sciencemag.org/content/357/6346/19)
+- [Understanding artificial intelligence ethics and safety](https://www.gov.uk/guidance/understanding-artificial-intelligence-ethics-and-safety)
+- [OECD AI Principles](oecd.org/going-digital/ai/principles/)
+- [Algorithmic Impact Assessments: A practical framework for public agency accountability](https://ainowinstitute.org/aiareport2018.pdf)
+- [Government of Canada Algorithmic Impact Assessment](https://ainowinstitute.org/aiareport2018.pdf)
+- [AI Principles: Recommendations on the Ethical Use of Artificial Intelligence by the Department of Defense](https://media.defense.gov/2019/Oct/31/2002204459/-1/-1/0/DIB_AI_PRINCIPLES_SUPPORTING_DOCUMENT.PDF)
 
 #### Run Your Pilot
 
-Planning and preparing for artificial intelligence implementation
-Managing your artificial intelligence project
-ACT-IAC AI/ML Primer
-Making the machine: the machine learning lifecycle
+- [Planning and preparing for artificial intelligence implementation](https://www.gov.uk/guidance/planning-and-preparing-for-artificial-intelligence-implementation)
+- [Managing your artificial intelligence project](https://www.gov.uk/guidance/managing-your-artificial-intelligence-project)
+- [ACT-IAC AI/ML Primer](https://www.actiac.org/system/files/Artificial%20Intelligence%20Machine%20Learning%20Primer.pdf)
+- [Making the machine: the machine learning lifecycle](https://cloud.google.com/blog/products/ai-machine-learning/making-the-machine-the-machine-learning-lifecycle)
 
 #### Post - pilot: Now what?
 
-Guidelines for AI Procurement, World Economic Forum 2019
-U.S. Federal Data Strategy: Action 14
-ACT-IAC AI Playbook
+- [Guidelines for AI Procurement, World Economic Forum 2019](https://www.weforum.org/whitepapers/ai-government-procurement-guidelines)
+- [U.S. Federal Data Strategy: Action 14](https://strategy.data.gov/action-plan/#action-14-identify-opportunities-to-increase-staff-data-skills)
+- [ACT-IAC AI Playbook](https://www.actiac.org/act-iac-white-paper-artificial-intelligence-playbook)
 
