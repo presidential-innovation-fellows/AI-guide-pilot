@@ -12,7 +12,7 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 - [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-the-approach)
 	- [Identify the problem](#identify-the-problem)
 	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-whether-the-problem-is-a-fit-for-aiml)
-	- [Bring diverse, experienced teams in-house](#bring-experienced-teams-in-house)
+	- [Bring diverse, experienced teams in-house](#bring-diverse-experienced-teams-in-house)
 	- [Know your data](#know-your-data)
 	- [Continuously test and evaluate prototypes](#continuously-test-and-evaluate-prototypes)
 - [Culture and Education](#culture-and-education)
@@ -160,72 +160,86 @@ The UK Office of Artificial Intelligence and the World Economic Forum have [rele
 - Have you asked a statistician or data scientist how much data you will need to solve your problem with AI?
 
 
-### Bring experienced teams in-house
+### Bring diverse, experienced teams in-house
 
-You will need to recruit a data scientist for at least a short period of time to validate AI is indeed viable solution. Testing and evaluation before committing to a given path should always happen before advancing further with a pilot. 
+You will need to draw on the skills of a data scientist or data analyst for at least a short period of time to validate that AI is indeed a viable solution for your problem. Testing and evaluation before committing to a given path should always happen before advancing further with a pilot.
 
-Here are a set of situations where AI could make sense, taken together.
+If you don’t have experts who understand your data and the relationship to your use-case in-house already, bringing in someone in-house to do this has several advantages over outsourcing to a vendor.
 
-- The problem to be solved is extremely tedious and repetitive
-- The problem is narrowly scoped (for example, differentiating this kind of object/sound/image from something else)
-- The problem cannot be solved at scale with human resources
-- The problem is too expensive to be solved at scale with human resources
-- The problem can be ethically solved with a machine
-- The problem does not have a solution that is easily programmed by an engineer (if you don’t know, go ask one!)
-
-If you don’t have experts who understand your data and the relationship to your use-case in house already, bringing in someone in-house to do this has several advantages over bringing in a vendor.
-
-- Generally speaking, in-house data scientists have few barriers to speaking with data owners, and getting access to data
+- Generally speaking, in-house data scientists have fewer barriers to speaking with data owners, and getting access to data
 - It may be cheaper than hiring a vendor, as an in-house data scientist can quickly create experiments and build models to test the viability of AI
 - It may be faster than hiring a vendor
-- That employee can oversee a vendor if a contract is awarded, especially if there isn’t the technical expertise on staff to work the vendor
-- Such experts, combined with domain data experts, can interact and evaluate various company tools and ideas via AI tech sprints.
+- That employee can oversee a vendor if a contract is awarded, especially if there isn’t the technical expertise on
+staff to work with the vendor
+- Such experts, combined with domain data experts, can interact and evaluate various company tools and ideas via
+AI tech sprints
+
+Integrating these algorithms into a software application will probably involve more than a data scientist. You will likely need a diverse team including at least a designer, engineer, and possibly a product manager to work with the product owner on your team. They should be familiar with user-centered design and agile methods.
 
 ##### Checklist
 
+- [ ] Consider working with 18F acquisitions specialists to help with procurement for the project
+- [ ] Ensure that the team building the solution and the agency team that knows the data are working closely with one another
 - [ ] Work with a data scientist to validate that AI is a sensible approach to solving a problem
-- [ ] Integrate vendor teams closely with your agency’s teams so that there is good communication practices, a responsive culture, and strong understanding of the problem to be solved
-- [ ] Consider other technical approaches which solves the user need and satisfies the problem statement before settling on one initial idea
-- [ ] Work with government fellowships like the Presidential Innovation Fellows, AAAS Fellows, and Presidential Management STEM Fellows as well as academic institutions in computer science to bring hard-to-find skill sets in statistics, computer science, and artificial intelligence into your agency
-- [ ] Consider using hackathons as means to engage industry on building tools, evaluating tools, and exchanging ideas/perspectives around open datasets and/or datasets that only need simple data use agreements.
-
+- [ ] Integrate vendor teams closely with your agency’s teams so that there are good communication practices, a responsive culture, and a clear understanding of the problem to be solved
+- [ ] Work with government fellowships like the Presidential Innovation Fellows, AAAS Fellows, the Civic Digital Fellows, and Presidential Management STEM Fellows, as well as academic institutions in computer science, to bring hard-to-find skill sets in statistics, computer science, and AI into your agency
+- [ ] Consider using hackathons or [data science challenges](http://https://www.cdc.gov/flu/news/predict-flu-challenge.htm) (such as [Kaggle](http://https://www.kaggle.com/)) as means to engage industry on building tools, evaluating tools, and exchanging ideas/perspectives around open datasets and/or datasets that only need simple data use agreements.
+- [ ] Recruit at least one designer, and possibly a front-end and back-end engineer to develop prototypes and ultimately build software that can meet user needs for a pilot.
 
 ##### Key Questions
 
 - What is your justification for using AI to solve this problem, versus robotic process automation (RPA), or another tool?
+- Have you asked your team to see if anyone has the requisite data skills? 
 - Do you have an experienced person on your hiring team to evaluate whether the people you are hiring have the appropriate skills?
+- Does the team have experience working in the government?
+- Is the hired team really agile?
+
 
 ### Know your data
 
-You will need a large volume of data to train machine learning models. Sometimes you might need to look outside your agency for data, or the data you have may not be useful for the problem you are trying to solve.
+You will need a large volume of data to train machine learning models. Sometimes you may need to look for data outside your agency, if the data you have is not sufficient for the problem you are trying to solve.
 
-AI does not reason like a human. AI needs a set of inputs in the form of data, and can only return an output. For this reason, knowing your data is not just about the size or the right kind of data, but also involves the quality of your data. 
+AI does not reason like a human. AI algorithms ingest a set of inputs in the form of data and can only return an output. For this reason, knowing your data is not just about knowing the size of your databases or whether you have the right kind of data, but also involves the quality of your data:
 
-- How your data is generated (data provenance) 
+- Data provenance
 - Accuracy
 - Laws governing that data
 - Validity
 - Reliability
-- Completeness 
+- Completeness
+- Uniqueness
+- Timeliness
+- Consistency
+- Overall value to the organization
 
-Developing a strong understanding of your data is the first step to laying the groundwork for an effective data management strategy -- and eventually better software, including AI. You will need to hire a data scientist to do this, and you may want to bring them in-house.  
+Developing a strong understanding of your data is the first step to laying the groundwork for an effective data management strategy -- and eventually better software, including AI. You will need to have access to a data scientist to do this, and you may want to bring them in-house.
 
-For a pilot, you may be able to use synthetic data (or artificially created data) to test the viability of an AI solution meeting a user’s needs. If you find new data within your agency, in accordance with the Federal Data Strategy you should document it, and if non-sensitive, make it available in a machine readable format for data discovery (for example, on data.gov). 
+For a pilot, you may be able to use synthetic data (or artificially created data) to test the viability of an AI solution meeting a user’s needs. If you find new data within your agency, you should document it in accordance with the [Federal Data Strategy](https://strategy.data.gov/), and if non-sensitive, make it available in a machine readable format for data discovery (for example, on [data.gov](http://data.gov]).
 
 ##### Checklist
 
-- [ ] Work closely with data owners, data scientists, statisticians, and subject matter experts within your agency to understand the state of your data including accuracy, validity, reliability, completeness, and more
-- [ ] Consider where you might identify other sources of data both short-term and long-term -- can you buy the data, artificially create it, collect it from other places that haven’t been surfaced yet, add new means of collecting data like sensors
-- [ ] Know where your data is physically located and points of contact
+- [ ] Work closely with data owners, data scientists, statisticians, and subject matter experts within your agency to understand the state of your data, including accuracy, validity, reliability, completeness, and more 
+- [ ] Consider where you might identify other sources of data to meet your short-term and long-term requirements. Can you buy the data, artificially create it, collect it from other places that haven’t surfaced yet, or add new means of collecting data like sensors? 
+- [ ] Know where your data is physically located and who are the points of contact for accessing the data
 - [ ] Be sure data has links to provenance information to facilitate quality checks, reproducibility, and interpretability
-- [ ] Keep your data clean as you collect and store it
+- [ ] Keep your data clean and well-structured as you collect and store it
 - [ ] Understand data standards, ontologies, and terminologies that may be applicable to your data
 
 ###### Key Questions
 
-- Do you have the data you need for your problem?
-- Given where your agency is headed is there data you need in the long-term that you can begin to collect now or test in the form of a pilot?
-- Do you have experts to help you evaluate whether your data is a fit for AI?
+- Have you identified data experts within your agency and paired them with a data scientist to ensure that the data scientist can learn about the data quickly? 
+- Has the data scientist shared with you:
+	- the types of variables you have?
+o the kinds of data analysis methods and models
+that could be used?
+o metrics for the data?
+o information on how to best curate the data?
+o information about missing data, erroneous data,
+and duplicative data?
+o information about potential bias in the dataset?
+o options as to how to go about solving issues in the
+data?
+Can you reach out to experts within the federal community, like the Networking and Information Technology Research and Development Working Group on AI?
 
 ### Continuously test and evaluate prototypes
 
