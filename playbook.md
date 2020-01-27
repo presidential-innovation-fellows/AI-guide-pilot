@@ -1,13 +1,9 @@
-# The Artificial Intelligence Playbook
+# THE ARTIFICIAL INTELLIGENCE GUIDE ON GETTING TO PILOT
 
-## A guide to getting to pilot with machine learning software
+Last Updated: January 27th, 2020
 
-September 8, 2019
 
-By [Justin Koufopoulos](mailto:justin.koufopoulos@gsa.gov), [Jeffrey Starr](mailto:jeffrey.starr@pif.gov), and [Gil Alterovitz](mailto:gil.alterovitz@va.gov)
-
-The [Presidential Innovation Fellows Program](https://pif.gov)
-
+This guide is a product of [10x](http://10x.gsa.gov) investments, made in collaboration with the [CIO Council](http://cio.gov), and the [Presential Innovation Fellows](http://pif.gov).
 
 ## Table of contents
 
