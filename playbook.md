@@ -303,31 +303,37 @@ The majority of these risks include culture change and work process change manag
 
 The automation of government processes should not create a negative experience for citizens. This might include:
 
-- Putting some groups at a disadvantage over others
-- Making it harder to access or find important information
+- Putting some groups at an unfair disadvantage over others
+- Making it harder to find or access important information
 - Breaching the privacy of citizens
-- Creating feelings of discomfort or a sense that they are being monitored
+- Creating feelings of discomfort or a sense that citizens are being monitored
 
-Machine learning approaches in AI are reliant on data to build predictive models. These models become part of decision-making pipelines which in turn become part of the software application with which users interact. If the data itself is biased, the software will reflect those biases. 
+ML approaches in AI are reliant on data to build predictive models. These models become part of decision-making pipelines which in turn become part of the software application with which users interact. If the data itself is biased, the software will reflect those biases.
 
-Biased software can mean that vulnerable populations are discriminated against, as vulnerable populations are oftentimes statistically under or overrepresented in data. Bias can also occur outside of the domain of classical discrimination categories with which we are familiar as citizens. Bias can also occur when underlying variables take on mathematical significance or weight in an algorithm. This kind of bias could well systematically skew decision-making related results of algorithms in ways that are hard to detect. Being cognizant of this possibility is important in order to test for and mitigate bias. 
+Biased software can mean that vulnerable populations are discriminated against, as vulnerable populations are oftentimes statistically under- or over-represented in data. Bias may also occur outside of the domain of classical discrimination categories with which we are familiar as citizens. Bias can also occur when underlying variables take on mathematical significance or weight in an algorithm. This kind of bias could systematically skew decision-making related results of algorithms in ways that are hard to detect. Being cognizant of this possibility is important in order to test for and mitigate bias.
+
+Ethical issues in a project should be identified as early as possible and considered throughout a project life-cycle; not just at the very end of a project or as a one-time event.
 
 ##### Checklist
 
 - [ ] Understand where your data comes from. Know the ramifications on how trustworthy and unbiased the dataset itself is by talking with individuals responsible for its collection and management
-- [ ] Consider filling out an Algorithmic Impact Assessment to determine the potential algorithmic risk for citizen harm
+- [ ] Fill out an [Algorithmic Impact Assessment](https://ainowinstitute.org/aiareport2018.pdf)(AIA) to determine the potential algorithmic risk for citizen harm (for example: [The Government of Canada’s AIA](https://www.canada.ca/en/government/system/digital-government/modern-emerging-technologies/responsible-use-ai/algorithmic-impact-assessment.html)). Revisit and update based on the problem being solved and throughout the lifecycle of the project
 - [ ] Identify indicators of citizen harm and construct a plan to measure and report on those indicators regularly
-- [ ] Work with data scientists to understand what your model’s error rate means for your software’s performance and the ramifications on citizens
+- [ ] Work with data scientists to understand what your model’s error rate means for your software’s performance and the ramifications it could have on citizens
 - [ ] Conduct user interviews with citizens to understand how current services work or don’t work for them, paying special attention to vulnerable populations. Use this information to better understand what your data for building a model might be leaving out
 - [ ] Involve your agency’s privacy office in conversations around your plans for developing a new service. Work with them to identify privacy issues and have plans to mitigate them
 - [ ] Be aware of the potential for the identification of citizens private information from the sharing of machine learning models, and consider partial sharing of code only
 
 ##### Key Questions
 
-- Is a person very knowledgeable about the data and the subject matter on the team?
-- Where does this data come from? 
-- How reliable is the reporting and collection methods?
-- What is the experiences currently of vulnerable populations interacting with us, and how would this new service impact them? 
+- Do you understand that your system, even if well- engineered, will make mistakes?
+- From an ethics point of view, are you prepared for the occasional error by an AI system?
+- Is the data scientist regularly communicating to the agency project team the implications of their work on the service?
+- Does providing the service favor one group or another?
+- Is a person on the team very knowledgeable about the data and the subject matter?
+- Where does this data come from?
+- How reliable are the reporting and collection methods?
+- What are the current experiences of vulnerable populations interacting with the program, and how would this new service impact them?
 - Is there appropriate human oversight and control of the system?
 - Did you implement appropriate strategies to enhance privacy, such as training models on non-sensitive data, using encryption, etc.?
 - Can a non-technical person on your team explain what your algorithm is doing?
@@ -335,20 +341,19 @@ Biased software can mean that vulnerable populations are discriminated against, 
 
 ### Build support and educate senior stakeholders
 
-AI is very much a new technology in the federal government. Very senior leaders are often unaware of the technical details of implementation. Furthermore, your leadership in legal, finance, operations, security and more will be unfamiliar with AI. Beginning a project with a strong cadence of communication with these leaders establishes trust and begins to set expectations on what the pilot will look like. 
+AI is very much a new technology in the federal government. Senior leaders are often unaware of the technical details of implementation. Furthermore, your leadership in legal, finance, operations, security and more may be unfamiliar with AI. Beginning a project with a strong cadence of communication with these leaders establishes trust and begins to set expectations on what the pilot will look like.
 
-Culture change is a team sport, and no pilot can accomplish this on its own. But by showing what is possible with AI and setting expectations, you can increase the organization’s chance of a good experience. This means that the second project will be more likely to succeed.
+Culture change is a team sport, and no pilot can accomplish this on its own. But, by showing what is possible with AI and setting expectations, you can increase the organization’s chance of a good experience. This means that the second project will be more likely to succeed.
 
 
-Checklist
+#### Checklist
 
 - [ ] Know what data you need and get the data owners bought in early
-- [ ] Map agency mission to AI/ML resource requirements in a way that meets leadership accountability mandates
+- [ ] Map agency mission to AI/ML resource requirements in a way that meets leadership accountability mandates 
 - [ ] Be aware of trends in the market or academia where similar processes to your own have been advanced through new technology and use those as signposts for the future and to gain buy-in.
-- [ ] Win over leadership to do a pilot, and build the pilot to demonstrate alignment and to win over leadership
-- [ ] Share business problem findings with team and agency leadership
+- [ ] Win over leadership to do a pilot, and build the pilot to demonstrate alignment and to win over leadership Share business problem findings with team and agency leadership
 
-Key Questions
+#### Key Questions
 
 - Is the AI pilot structured to demonstrate unambiguously alignment with agency mission and data structures? 
 - How is leadership invested in the AI pilot?
@@ -356,9 +361,9 @@ Key Questions
 
 ## Run your pilot
 
-Pilots take working software and tests it with typically a substantial user segment to give development teams and leadership a window into how well the software works as a solution. 
+Pilots take working software and typically test it with a substantial user segment. This gives development teams and leadership insight into how well the software works as a solution.
 
-A pilot of AI should also involve live data, where the algorithm and the software is integrated into a user’s workflow. During a pilot phase, evaluate the success of the model to ensure that the outputs are understood by the users. Collect user feedback and ensure that the feedback is relayed to the entire team and used in the next iteration of the software. 
+A pilot of AI should also involve live data, where the algorithm and the software are both integrated into a user’s workflow. During a pilot phase, evaluate the success of the model to ensure that the outputs are understood by the users. Collect user feedback and ensure that the feedback is relayed to the entire team and used in the next iteration of the software.
 
 ### Have a clear plan
 
