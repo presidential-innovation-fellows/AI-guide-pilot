@@ -11,7 +11,7 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 	- [Who should use this guide, and how and why they should use it](#who-should-use-this-guide-and-how-and-why-they-should-use-it)
 - [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-the-approach)
 	- [Identify the problem](#identify-the-problem)
-	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-fit-for-ai)
+	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-whether-the-problem-is-a-fit-for-aiml)
 	- [Bring diverse, experienced teams in-house](#bring-experienced-teams-in-house)
 	- [Know your data](#know-your-data)
 	- [Continuously test and evaluate prototypes](#continuously-test-and-evaluate-prototypes)
@@ -105,6 +105,14 @@ A template for a clear problem statement might look like the following:
 - [ ] Identify key metrics and outcomes for solving the problem, rather than metrics for the technical solution
 - [ ] Understand previous attempts to solve this problem and those projects’ outcomes
 
+##### Key Questions
+
+- How quickly can you begin speaking to users to learn more about the problem and unaddressed needs?
+- What goals or needs aren’t being met? What measurable criteria would indicate progress toward those goals?
+- Are you at a point where you are hearing the same challenge described over and over again?
+- Do you have a document describing the history of this problem and the various connected issues?
+- Can you articulate in plain language the problem to be solved?
+
 ## Evaluate whether the problem is a fit for AI/ML
 
 AI, and ML are methodologies for solving a problem. Oftentimes, simpler solutions like Robotic Process Automation (RPA), rule-based software, or analytics can be more effective and less costly. However, there are problems in agencies where AI and machine learning is the most effective approach from a business and cost- savings standpoint.
@@ -133,15 +141,23 @@ For example:
 
 If your agency doesn’t have the talent to evaluate whether the problem is a fit for AI, the agency should consider contacting the [AI Center of Excellence](mailto:connectcoe@gsa.gov) at the Technology Transformation Service. When issuing a Request for Proposal (RFP), in most situations an agency should not describe the solution as AI unless there is strong reason to believe so. Even then, the agency should be open to alternative technical solutions. Instead, focus on delivering a clear problem statement.
 
-The UK Office of Artificial Intelligence and the World Economic Forum have released guidance on procuring AI solutions that can be helpful to review when planning your purchasing strategy.
+The UK Office of Artificial Intelligence and the World Economic Forum have [released guidance on procuring AI solutions](https://www.weforum.org/whitepapers/ai-government-procurement-guidelines) that can be helpful to review when planning your purchasing strategy.
 
-##### Key Questions
+##### Checklist
 
-- How quickly can you begin speaking to users to learn more about the problem and unaddressed needs?
-- What goals or needs aren’t being met? What measurable criteria would indicate progress toward those goals?
-- Are you at a point where you are hearing the same challenge described over and over again?
-- Do you have a document describing the history of this problem and the various connected issues?
-- Can you articulate in plain language the problem to be solved?
+- [ ] Fill out an AI Agency Self-Assessment Checklist for AI 
+- [ ] Assess whether AI is an appropriate solution by consulting with a data analyst or data scientist
+- [ ] Consult with a domain expert who understands the set of issues that will impact the deployment of the solution was consulted
+- [ ] You have or can procure a large amount of high quality data for training machine learning models
+- [ ] You have many labelled examples of what “right” looks like for the models to learn from
+- [ ] Identify whether you have a healthy budget for hiring, building and long-term maintenance of an AI solution
+- [ ] Determine whether AI application will produce better ROI over simpler and cheaper analytics
+
+##### Key questions
+
+- Can you express what the right action is for a machine?
+- Do you have enough data for a model to learn from?
+- Have you asked a statistician or data scientist how much data you will need to solve your problem with AI?
 
 
 ### Bring experienced teams in-house
