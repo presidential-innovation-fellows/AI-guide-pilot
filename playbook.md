@@ -225,7 +225,7 @@ For a pilot, you may be able to use synthetic data (or artificially created data
 - [ ] Keep your data clean and well-structured as you collect and store it
 - [ ] Understand data standards, ontologies, and terminologies that may be applicable to your data
 
-###### Key Questions
+##### Key Questions
 
 - Have you identified data experts within your agency and paired them with a data scientist to ensure that the data scientist can learn about the data quickly? 
 - Has the data scientist shared with you:
@@ -346,14 +346,14 @@ AI is very much a new technology in the federal government. Senior leaders are o
 Culture change is a team sport, and no pilot can accomplish this on its own. But, by showing what is possible with AI and setting expectations, you can increase the organization’s chance of a good experience. This means that the second project will be more likely to succeed.
 
 
-#### Checklist
+##### Checklist
 
 - [ ] Know what data you need and get the data owners bought in early
 - [ ] Map agency mission to AI/ML resource requirements in a way that meets leadership accountability mandates 
 - [ ] Be aware of trends in the market or academia where similar processes to your own have been advanced through new technology and use those as signposts for the future and to gain buy-in.
 - [ ] Win over leadership to do a pilot, and build the pilot to demonstrate alignment and to win over leadership Share business problem findings with team and agency leadership
 
-#### Key Questions
+##### Key Questions
 
 - Is the AI pilot structured to demonstrate unambiguously alignment with agency mission and data structures? 
 - How is leadership invested in the AI pilot?
@@ -378,7 +378,7 @@ Also, it’s important to consider how you’ve set up your system to collect fe
 - Document the results of the pilot for further learning and evaluation by the software team
 - Continue to collect user needs and turn them into user stories during the pilot phase
 
-###### Questions
+##### Questions
 
 - What are the hypotheses being tested in this pilot?
 - What are the key metrics?
@@ -423,7 +423,7 @@ An AI algorithm is software code that processes data. AI and other types of auto
 - [ ] Consult early with Legal and Privacy Officers, and bring data owners to these early conversations in order to discuss protections around the information being collected and used
 - [ ] Remember that the appropriate privacy, civil liberties, and/or legal advisors for the department or agency are part of your stakeholder ecosystem
 
-###### Key Questions
+##### Key Questions
 
 - What are the roles and responsibilities for the pilot?
 - What are the laws and policies that impact this algorithm?
@@ -487,6 +487,94 @@ Developing in-house talent is about recognizing that automation, data, and softw
 
 ### Case Study: Census Bureau
 
+#### Classifying free-text product descriptions using machine learning
+
+The Commodity Flow Survey (CFS), a joint effort between the Bureau of Transportation Statistics and the Census Bureau, produces estimates of shipment activity and the flow of goods nationwide. In 2018, CFS implemented a machine learning process to improve data quality as well as reduce operational costs and respondent burden. In particular, CFS has implemented a machine-learning based "autocoder" to classify free-text product descriptions provided by respondents. Using this autocoder, CFS has successfully labeled or relabeled codes for approximately 200,000 records from the 2017 CFS. This has improved production data quality and the resulting estimates, while simultaneously reducing respondent burden and costs.
+
+##### Assessing impact of changes
+
+One important facet of implementing any AI/ML process is understanding the potential bias and “downstream impact” of introducing a new methodology. In the case of CFS, the team wondered how potentially reclassifying product types might affect estimates of product movement throughout the country. An early version of the model was particularly good at classifying products in food-related product categories, and less good at classifying into other categories (e.g. machinery or electronics). The team wondered if this would bias final estimates toward food-related shipment activity. However, upon further investigation, the team found that when predicting food categories, the ML exhibited both high precision and high-recall; in other words, it was capturing the "universe" of food-related product shipments and therefore helping correctly apportion food-related shipments vs. other shipment activity.
+
+###### Going to production early
+
+At first, the CFS team saw potentially concerning accuracy numbers: around 50%. However, upon leveraging the model's measure of its confidence in the prediction, the team found that highly confident predictions were far more accurate -- around 90%. By limiting predictions / updates to just this subset of highly confident predictions, the CFS team found that it both had a deployable "production-ready" model and a path forward to improve the model by working to increase the proportion of high-confidence predictions. Practitioners, especially those with research backgrounds, can often become focused on developing a "perfect" model before going to production, even when something production-grade may exist under the right constraints without deeper research.
+                
+
 ### Appendix I: Definition of Terms
 
+**Artificial intelligence** (AI): The field of computer science that deals with the simulation of intelligent behavior in computers or the capability of a machine to imitate intelligent human behavior. It is used broadly to refer to any algorithms, methods, or technologies that make a system act and/or behave like a human and includes machine learning, computer vision, natural language processing, cognitive, robotics, and related topics.
+ 
+**Machine learning** (ML): A technique within the field of artificial intelligence which uses algorithms that automatically improve with experience or “learn” without being explicitly programmed. Machine learning is the application of AI techniques using statistical methods that enable machines to improve correlations as more data is used in the model, and for models to change over time as new data is correlated. Machine learning evolved from the connectionist theory of human cognition, pattern recognition, and computational learning theory. Approaches include neural networks and deep learning. 
+ 
+**Algorithm**: A set of mathematical rules, that if followed, will give a prescribed result. Some of the common algorithms used in AI/ML include Bayesian networks, clustering, decision tree learning, reinforcement learning, and representation learning. 
+ 
+**Model**: A set of instructions or recipe that a computer uses to turn data into a decision or output (i.e., is this picture a fake or real?).
+ 
+**Pilot**: Pilot projects can have a broad definition and set of criteria across the U.S. federal government. With respect to this guide, an AI pilot should meet the following criteria: 
+- AI models are running, learning from data, and helping to make decisions
+- There is a framework in place to evaluate the effectiveness of the AI models
+- A selection of the public can interact with the service and provide feedback
+- Evidence is gathered as to whether the service meets user needs
+ 
+**AI lifecycle**: A set of phases in which a ML model is integrated into the organization’s software development process. For more on the AI lifecycle, read this blog post by Google on [Making the Machine: The Machine Learning Lifecycle](https://cloud.google.com/blog/products/ai-machine-learning/making-the-machine-the-machine-learning-lifecycle).
+ 
+**Data science**: A process by which raw data is turned into business insights. This includes data cleaning, debugging, and “munging,” data mining, and finally delivering actionable insights. 
+ 
+**User journey**: The major interactions shaping a user’s experience of a product or service.
+ 
+**Agile**: A way of thinking and attacking problems that embraces iteration, failing quickly, and learning. Agile typically involves practices like standups, retrospectives, sprints, sprint planning, backlog grooming, transparency of information,  self-organizing teams and more. Agile is not a checklist though. A team can have all these practices and not be agile. Good signs include valuable software being shipped at the end of every sprint and the team receiving continuous user feedback. For more read the [Defense Innovation Board’s Guide: Detecting Agile BS](https://media.defense.gov/2019/May/02/2002127286/-1/-1/0/DIBGUIDEDETECTINGAGILEBS.PDF).
+ 
+**Gold-standard dataset**: A dataset that is highly curated, often by experts to evaluate machine learning models that have been fully trained. As opposed to the training data, this data the model never sees. In a competitive award process, agencies can use gold-standard datasets to evaluate the performance of different vendors to decide a winner. 
+ 
+**Data provenance**: The record trail and historical context for a piece of data. A measure of data quality.
+ 
+**Data accuracy**: Whether the data itself is correct. A measure of data quality.
+ 
+**Data validity**: The extent that the data reflects the real world. A measure of data quality.
+ 
+**Data uniqueness**: The extent that the data does not contain any duplicates. A measure of data quality.
+ 
+**Data completeness**: A measure of how much critical data is available relative to all of the data available for a given a business case.
+ 
+**Synthetic data**: Data that is generated by computer code. Usually used in place of real data for model training if that data has special protections or is difficult to come by. 
+ 
+**Robotic Process Automation** (RPA): Robotic Process Automation (RPA): A technology platform that enables a software robot to interact with applications. RPA software can be easily programmed to do basic tasks across applications just as human workers do. The software robot can be taught a workflow with multiple steps and applications such as taking received forms, sending a receipt message, and checking the form for completeness. RPA software is designed to reduce the burden of repetitive, simple tasks on employees. RPA technology can automate many common data entry activities that can include invoice entry, human resources personnel action entry, and data verification.
+ 
+**Supervised Machine Learning**: In supervised machine learning, a model is given data that is labeled in an organized fashion by a subject matter expert. Once enough structured and labeled data is provided, the AI model built can recognize and respond to patterns in data without explicit instructions. The output and the accuracy of supervised learning algorithms are easy to measure. Supervised learning is a common method of machine learning today.
+ 
+**Unsupervised Machine Learning**: A model is given data that are not labeled in an organized fashion. For example, one might provide pictures of animals (cats, dogs, etc.) without any labels. The model organizes items into logical groupings based on patterns recognized by the model. This method is used to identify underlying patterns from previously unstructured data. The expectation is not to derive the right output but to explore datasets and draw inferences. Unsupervised learning is often applied to cases where the researcher or user does not already know the significant structures or relationships among the data.
+
 ### Appendix II: Additional Resources
+
+#### Identifying the problem and evaluating the approach
+
+Digital Services Playbook
+18F Method Cards
+AI Self Assessment Checklist
+What Great Data Analysts Do -- And Why Every Organization Needs Them
+De-risking Custom Technology Projects
+A Guide to Using Artificial Intelligence in the Public Sector
+DIB Guide: Detecting Agile BS
+
+#### Culture and Education
+
+Scientific American AI Glossary
+Understanding artificial intelligence ethics and safety
+OECD AI Principles
+Algorithmic Impact Assessments: A practical framework for public agency accountability
+Government of Canada Algorithmic Impact Assessment
+AI Principles: Recommendations on the Ethical Use of Artificial Intelligence by the Department of Defense
+
+#### Run Your Pilot
+
+Planning and preparing for artificial intelligence implementation
+Managing your artificial intelligence project
+ACT-IAC AI/ML Primer
+Making the machine: the machine learning lifecycle
+
+#### Post - pilot: Now what?
+
+Guidelines for AI Procurement, World Economic Forum 2019
+U.S. Federal Data Strategy: Action 14
+ACT-IAC AI Playbook
+
