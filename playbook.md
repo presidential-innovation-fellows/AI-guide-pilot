@@ -8,7 +8,7 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 ## Table of contents
 
 - [Introduction](#introduction)
-	- [Who should use this guide, and how and why they should use it](#who-should-use-this-guide)
+	- [Who should use this guide, and how and why they should use it](#Who-should-use-this-guide-and-how-and-why-they-should-use-it)
 - [Identifying your problem and evaluating the approach](#identifying-your-problem-and-evaluating-approach)
 	- [Identify the problem](#identify-the-problem)
 	- [Evaluate whether the problem is a fit for AI/ML](#evaluate-fit-for-ai)
@@ -69,24 +69,30 @@ These 13 best practices are ordered roughly in sequence. However, a project team
 
 This guide is not:
 
-A set of linear steps
-The entire overview of an AI lifecycle
-A complete primer on laws and ethics, data governance, user-centered design, or software development
-A review of data science or machine learning
+- A set of linear steps
+- The entire overview of an AI lifecycle
+- A complete primer on laws and ethics, data governance, user-centered design, or software development
+- A review of data science or machine learning
 
 This guide is meant to be a living document. Every month, new research and guidance on AI for governments is released. As the technological sophistication of AI solutions advances, this set of plays, checklists, and questions should be updated to remain relevant and useful to federal community. 
 
 
+# IDENTIFYING YOUR PROBLEM AND EVALUATING THE APPROACH
 
-## Identifying your problem and testing ideas
+AI is not an all-purpose solution; it is another tool to help agencies meet their missions. For designing any service, always begin with user needs.
 
-AI is not an all-purpose solution. AI is another tool to help agencies meet their missions. For designing any service, always begin with user needs. 
+## Identify the problem
 
-### Identify the problem
+It is important for agencies to take the time to understand the problem they are trying to solve with AI. Rather than beginning with AI as a solution, first identify the problem to be solved.
 
-There are many methods to identifying these needs. It should involve interacting with end-users of a particular service. End-users are not just citizens or the public. Users are whomever will be using the technology. You may also wish to interview individuals impacted by the technology to understand and address potential concerns. For example, a tool which helps adjudicate benefits decisions may have an internal agency user-base, but also external stakeholder groups like individuals for applying for benefits that are extremely important to factor into design decisions.
+[Begin by understanding what people need](https://playbook.cio.gov/#play1). An algorithm is only a small part of a solution, and part of an overall service. What needs should that service solve for? To find out, involve users in the design process from the beginning. Users might be the public or internal agency employees. There are many [methods](https://methods.18f.gov/) to understanding these needs, but pretty much all of them involve speaking to users directly.
 
-It’s important agencies really take the time to understand their problems in a deep way. It may be worthwhile for Federal agencies to consider working with 18F or a vendor on a short project to validate the stated problem before going further in development. There are several key items to consider.
+You should interview individuals impacted by the technology to understand and address potential concerns. For example, a tool that helps to adjudicate benefits decisions may have an internal agency user-base, but also external stakeholder groups like individuals applying for benefits whose views are crucial to factor into design decisions.
+
+A template for a clear problem statement might look like the following:
+
+> We have observed that _product/service/organization_ isn’t meeting _these goals/needs_, which is causing _this adverse effect_. How might we improve so that our product/service/team/organization is more successful based on _these measurable criteria?_
+       
 
 ##### Checklist
 
