@@ -1,6 +1,6 @@
-# Artificial Intelligence Playbook
+# THE ARTIFICIAL INTELLIGENCE GUIDE ON GETTING TO PILOT
 
-A 10x project to pilot a process to educate stakeholders about assessing and buying artificial intelligence tools.
+This guide is a product of 10x investments, made in collaboration with the CIO Council, and the Presential Innovation Fellows.
 
 This repository is for document storage and issue-tracking.
 
