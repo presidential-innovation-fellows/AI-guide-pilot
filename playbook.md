@@ -26,9 +26,9 @@ This guide is a product of [10x](http://10x.gsa.gov) investments, made in collab
 - [Post pilot: Now what?](#post-pilot-now-what)
 	- [Consider the long-term investment strategy](#consider-the-long-term-investment-strategy)
 	- [Lay the seeds for future experimentation](#lay-the-seeds-for-future-experimentation)
-- [Case Study](#case-study)
-- [Appendix I: Definition of Terms](#appendix-I)
-- [Appendix II: Additional Resources](#appendix-II)
+- [Case Study: Census Bureau](#case-study-census-bureau)
+- [Appendix I: Definition of Terms](#appendix-I-definition-of-terms)
+- [Appendix II: Additional Resources](#appendix-II-additional-resources)
 
 ## Introduction
 
@@ -367,9 +367,9 @@ A pilot of AI should also involve live data, where the algorithm and the softwar
 
 ### Have a clear plan
 
-Before actually running the pilot, have a clear plan. Running a pilot but having results that are not actionable is a tremendous waste of resources and time. Decide beforehand what the important metrics are for the software and algorithm you are piloting. Refer back to the original business problem and user needs you identified. 
+Before actually running the pilot, have a clear plan. Running a pilot that yields results that are not actionable could be a tremendous waste of resources and time. Decide beforehand what the important metrics are for evaluating the software and algorithm you are piloting. Refer back to the original business problem and user needs you identified.
 
-Also, it’s important to consider how you’ve set up your system to collect feedback. For example, you may wish to conduct user interviews during the pilot to continuously collect user needs and new user stories. You may also place monitoring analytics to collect quantitative measures of user actions. Finally, continuously monitoring and evaluating the model during this phase is important so that you know if and when you need to retrain your model.
+Also, it’s important to consider how you’ve set up your system to collect feedback. For example, you may wish to conduct user interviews during the pilot to continuously collect user needs and new user stories. You should look carefully at employing monitoring analytics to collect quantitative measures of user actions. Finally, it is important to measure model results with test dataset and accuracy metrics.
 
 ##### Checklist
 
@@ -388,38 +388,40 @@ Also, it’s important to consider how you’ve set up your system to collect fe
 
 ### Create standards for measuring the performance of models
 
-Training and testing datasets designed for AI with testing datasets enable models to be tested and trained. The evaluation process should be started as early as possible in the planning process. It can involve obtaining models from external organizations and testing them for accuracy on previously unseen data. Agencies may also build/leverage tools to serve as honest broker for testing. Alternatively, a trusted third party may take this role.  
+The approach used for training and testing should be designed for the AI from the beginning of the piloting process. This typically involves a gold-standard dataset, often annotated by experts or via crowdsourcing, that can serve as basis for measuring model performance. It is essential to evaluate your AI algorithm using a testing dataset that is different from the training set used to build the AI model. This ensures that the AI model can be readily applied to other situations with similar accuracy. It can involve obtaining models from external organizations and testing them for accuracy on previously unseen data. To ensure adequate testing, agencies and/or trusted third parties may play a role to ensure trusted independent testing is performed. Having a common platform and metrics for testing also ensures that accuracy results are trustworthy and comparable across various solutions being compared. Either way, the key is to have some data kept for testing that is not used in the training process.
 
-Either way, the key is to have some data be kept for testing that is not used in the training process. Working with industry is useful to understand broader sets of use cases- and challenges/sprints can enable comparisons of different models for fit for purpose. Sometimes, data is located on different servers and cannot be combined into a central database due to privacy or other concerns. In such cases, federated approaches may be useful, whereby computing is done on local servers and then resulting analysis is shared with others.  This can  enable AI results to be combined from data across sites in ways that protect access of the individual servers’ data by outside users (e.g. for privacy).
+Working with industry is useful to understand broader sets of use cases, and challenges/sprints can enable comparisons of different models to be tried and tested for different types of applications. Sometimes, data is located on different servers and cannot be combined into a central database due to privacy or other concerns. In such cases, federated approaches may be useful, whereby computing is done on local servers and then resulting analysis is shared with others. This can enable AI results to be combined from data across sites in ways that protect access of the individual server’s data by outside users (e.g. for privacy).
 
 ##### Checklist
 
 - [ ] Develop a model evaluation plan at the beginning of the design process
-- [ ] Create a gold-standard data set annotated by experts that can serve as basis for measuring model performance
-- [ ] Release only a subset of gold-standard dataset, if any, for training purposes by external parties/vendors, keeping some for testing of model performance
-- [ ] For testing models, compare model predicted results against gold-standard
-- [ ] Define accuracy metrics used in evaluation process
-- [ ] Iterate on algorithms using human input to tweak performance on training datasets (always keeping testing data separate)
-- [ ] Evaluate the relative weight of various features of the model for quick sanity check and explore explainability to see if follows human intuition
+- [ ] Consider creating a gold-standard dataset annotated by experts that can serve as basis for measuring model performance
+- [ ] Release only a subset of a gold-standard dataset for training purposes by external parties/vendors, keeping some for testing of model performance. Alternatively, if the training data is readily available, consider saving the gold-standard dataset for training and use it only for testing purposes to evaluate the accuracy of the tools created
+- [ ] For testing models, compare model-predicted results with results from gold-standard datasets
+- [ ] Define accuracy metrics used in the evaluation process
+- [ ] Iterate on algorithms using human input to tweak performance on training datasets (while keeping testing data separate)
+- [ ] Evaluate the relative weight of various features of the model for a quick sanity check and explore explain- ability to see if follows human intuition
 - [ ] Do sensitivity analysis to understand how data variations can affect predictions
 
 ##### Key Questions
 
+- Unless you are doing unsupervised learning, do you have enough labeled outputs for the model to learn from?
+- Can you pay someone to repeat the manual task over and over to generate the outputs?
 - Are there standard training/testing datasets already available in the agency or externally?
-- Is there a third party that can do independent model testing? (in which case gold-standard test data would be given to a third party)
+- Can a third party do independent model testing (in which case gold-standard test data would be given to a third party)?
 - Is the model explainable?
 - What accuracy metrics best represent user needs?
 
 ### Know and follow the relevant laws to your project
 
-AI is software. It is code and data. AI and other types of automation (including Robotic Process Automation) are not an entity or an agent that has the rights of a human being. Agencies should expect to comply with all existing laws and policies with respect to data and software. Whether an agency create algorithms may depend on the consent and privacy laws governing the use of the data that was collected. 
+An AI algorithm is software code that processes data. AI and other types of automation (including RPA) are not entities or agents that have the rights of a human being. Agencies should expect to comply with all existing laws and policies with respect to data and software. Whether an agency may be constrained in the use of AI algorithms may depend on the consent and privacy laws governing the use of the data that was collected.
 
 ##### Checklist
 
 - [ ] Understand what data protection questions need to be answered before implementing a machine learning algorithm or building a dataset. For example, building a training set by extracting data programmatically from websites (a legally grey area)
-- [ ] Identify any laws and policies implementing an algorithm will impact
+- [ ] Identify any laws and policies that would be impacted by implementing an algorithm
 - [ ] Consult early with Legal and Privacy Officers, and bring data owners to these early conversations in order to discuss protections around the information being collected and used
-- [ ] The appropriate privacy, civil liberties, and/or legal advisor for the department or agency is a partner
+- [ ] Remember that the appropriate privacy, civil liberties, and/or legal advisors for the department or agency are part of your stakeholder ecosystem
 
 ###### Key Questions
 
@@ -434,17 +436,19 @@ You’ve run your pilot. You’ve collected valuable user feedback on how useful
 
 ### Consider the long-term investment strategy
 
-In the short term, a pilot needs to test the foundational ideas and hypotheses discovered in the user research, as well as get a better sense of the technical feasibility of the path.  
+In the short-term, a pilot needs to test the foundational ideas and hypotheses discovered in the user research, as well as get a better sense of the technical feasibility of the path.
 
-However, long-term considerations are a bit different. Long-term you will need to 
+However, long-term considerations are a bit different. Long-term, you will need to:
 
 - Have a sound plan for managing the data used by the AI model
-- Have a plan for updating the software 
+- Have a plan for updating the software
 - Ensure the quality of the AI outputs
+- Develop a strategy for AI procurement
+- Address the integration of AI into your workflow long term with training and education
 
-You may also need alternative infrastructures and services like a specialized chip (Graphics Processing Unit)-based cloud based environment for managing data and running the models. AI takes much more computing power than traditional software applications because the amount of the data being modelled continuously and at high speeds. Consider infrastructure needs based on the quantity of data that needs to be processed, stored, and speed of access/transfer required.  For computations, understand the computational complexity and ability for parallelization of the algorithms/models to determine the speed and quantity of processors needed as well as memory requirements.
+You may also need alternative infrastructure and services, like a specialized chip-based (Graphics Processing Unit) or cloud-based environments for processing data and running the models. AI takes significantly more computing power than traditional software applications because the amount of the data being modelled continuously and at high speeds. Consider infrastructure needs based on the quantity of data that must be processed and stored, and the speed of access/transfer required. For computations, understand the computational complexity and ability for parallelization of the algorithms/models to determine the speed and quantity of processors needed as well as memory requirements.
 
-AI may not be a possible solution if the infrastructure you are deploying it to can’t keep up with the requirements needed to provide a good user experience. Other investments in talent and education may also be needed.
+AI may not be a possible solution if the infrastructure within which you are deploying it can’t keep up with the requirements needed to provide a good user experience. Other investments in talent and education may also be needed.
 
 ##### Checklist
 
@@ -461,25 +465,28 @@ AI may not be a possible solution if the infrastructure you are deploying it to 
 
 ### Lay the seeds for future experimentation
 
-In order to steward artificial intelligence in the government, we need professional data scientists, but we also need a trained non-data science workforce that is capable of identifying opportunities within their own workflow for automation, that can think ahead to the future, evaluate vendors, and manage teams that may include data scientists and software engineers. 
+In order to steward artificial intelligence in the government, we need professional data scientists. However, we also need a trained non-data science workforce that is capable of identifying opportunities within their own workflow for automation or data pattern recognition, who can think ahead to the future, evaluate vendors, and manage teams that may include data scientists and software engineers.
 
-Developing in-house talent is about recognizing that automation, data, and software is changing the way government does its work. To be proactive, thoughtful, and effective stewards of this work, it is important that agencies look at how it can grow these skills within their own walls. AI is a discipline which includes statistics, computer science, and software engineering. Technical staff with a background in at least statistics are often capable of learning more computational approaches.
+Developing in-house talent is about recognizing that automation, data, and software are changing the way government does its work. To be proactive, thoughtful, and effective stewards of this work, it is important that agencies look at how it can [grow these skills within their own walls](https://strategy.data.gov/action-plan/#action-14-identify-opportunities-to-increase-staff-data-skills). AI is a discipline that includes statistics, computer science, and software engineering. Technical staff with a background in at least statistics are often capable of learning more computational approaches.
 
 ##### Checklist
 
 - [ ] Identify individuals with experience conducting web analytics, doing statistical analyses or economic analyses using statistical processing methods, managing major databases, and working as data architects
-- [ ] Give talented technical experts a few hours each week to explore problems that interest them outside of their day-to-day tasks. Ask them how they might solve those problems, and consider how you might provide them resources if they present a compelling business case
-- [ ] Encourage technical experts to take online training courses like Coursera, MIT Opencourseware, Edx, and others to enhance their existing skill sets with new ones. 
-- [ ] Encourage the use of open source packages and libraries like R, Python, Keras, Pytorch, and sci-kit learn to promote literacy in industry-standard tools, avoid blackbox tools where it is difficult to de-engineer how a given software tool made a decision, and get to prototype faster than traditional procurement
-- [ ] Consider how internal classes taught by more experienced technical staff can enhance the skills of less experienced staff and promote greater data and artificial intelligence literacy and understanding
+- [ ] Give talented technical experts a few hours each week to explore problems that interest them outside their day-to- day tasks. Ask them how they might solve those problems, and consider how you might provide them resources if they present a compelling business case
+- [ ] Encourage technical experts to take online training courses like Coursera, MIT Opencourseware, Edx, and others to enhance their existing skill sets with new ones. Encourage the use of open source packages and libraries like R, Python, Keras, Pytorch, and sci-kit learn to promote literacy in industry-standard tools, avoid black-box tools where it is difficult to de-engineer how a given software tool made a decision, and get to prototype faster than traditional procurement
+- [ ] Consider how internal classes taught by more experienced technical staff can enhance the skills of less experienced staff and promote greater data and AI literacy and understanding
 - [ ] Explore whether budgetary set-asides are permitted to fund innovation, experiments, and prototype development
 
 ##### Key Questions
 
-- What skills do you have in your agency currently in statistics, informatics, analytics, mathematics, computer science, and software engineering? 
-- Have you given your talented technical people time to experiment with new tools and grow? 
+- What skills do you have in your agency currently in statistics, informatics, analytics, mathematics, computer science, and software engineering?
+- Have you given your talented technical people time to experiment with new tools and grow?
 - Have you considered setting up data science guilds, classes, or workgroups taught by more experienced internal staff?
-- Have you considered internal hackathons to give technical staff time to identify their own problems and solve them?
-- Does your agency culture prioritize internal innovation or is it focused on acquiring market-driven solutions
+- Have you considered internal hackathons or data science challenges to give technical staff time to identify their own problems and solve them?
+- Does your agency culture prioritize internal innovation or is it focused on acquiring market-driven solutions?
 
-## Appendix
+### Case Study: Census Bureau
+
+### Appendix I: Definition of Terms
+
+### Appendix II: Additional Resources
