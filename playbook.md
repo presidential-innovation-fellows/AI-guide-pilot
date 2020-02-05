@@ -3,7 +3,7 @@
 _Last Updated: January 27th, 2020_
 
 
-This guide is a product of [10x](http://10x.gsa.gov) investments, made in collaboration with the [CIO Council](http://cio.gov), and the [Presential Innovation Fellows](http://pif.gov).
+This guide is a product of [10x](http://10x.gsa.gov) investments, made in collaboration with the [CIO Council](http://cio.gov), and the [Presidential Innovation Fellows](http://pif.gov).
 
 ## Table of contents
 
